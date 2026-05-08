@@ -11,7 +11,7 @@ options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(options=options)
 
-driver.get("http://YOUR_PUBLIC_IP:5000")
+driver.get("http://100.24.114.216/:5000")
 
 # Test Case 1
 assert "DevOps Assignment Running Successfully" in driver.page_source
